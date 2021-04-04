@@ -117,16 +117,22 @@ body {
     background-size: cover;
 }
 
-.promotions__item--man,
-.promotions__item--kids,
-.promotions__item--accesories {
+.promotions__item--man {
     background-image: url("../img/promotions-man.jpg");
     background-size: cover;
 }
 
+.promotions__item--kids {
+    background-image: url("../img/promotions-kids.jpg");
+    background-size: cover;
+}
+
 .promotions__item--accesories {
+    background-image: url("../img/promotions-acceries.jpg");
+    background-size: cover;
     width: 100%;
 }
+
 
 .product__button {
     display: none;
@@ -163,4 +169,50 @@ body {
 .header__button:hover .header__button-icon,
 .header__link:hover .header__button-icon {
     fill: var(--dark-pink-color);
+}
+
+.footer {
+    margin-top: 95px;
+    padding-top: 103px;
+    width: 100%;
+    height: 870px;
+    background-color: #222224;
+}
+
+.footer__info {
+    margin-left: 230px;
+    margin-right: 230px;
+    justify-content: center;
+    color: #E8E8E8;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer__info li {
+    text-align: center;
+}
+
+.footer__info-block {
+    height: 135px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.footer__info-icon {
+    display: block;
+    margin: auto;
+    width: 45px;
+    height: 32px;
+}
+
+.footer__subscribe {
+    width: 100%;
+    height: 450px;
+    background-color: blanchedalmond;
+    background-image: url(img\footer-img.jpg);
+
 }
